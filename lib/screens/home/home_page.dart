@@ -7,7 +7,6 @@ const studentId = '630710484';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
-
   @override
   State<HomePage> createState() => _HomePageState();
 }
@@ -51,15 +50,26 @@ class _HomePageState extends State<HomePage> {
                   Container(
                     width: 500,
                     height: 500,
+                    padding: EdgeInsets.all(16.0),
+                    child: Text(
+                      'Question 1 or 10',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 16.0,
+                        color: Color(0xFF808080),
+                      ),
+                    ),
                     decoration: ShapeDecoration(
                         color: Colors.white,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(32),
                         )),
-                  )
+                  ),
                 ],
-              )
+              ),
+
             ],
+
           ),
         ),
       ),
