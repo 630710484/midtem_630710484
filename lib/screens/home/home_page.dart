@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
       body: SafeArea(
         child: Container(
           padding: EdgeInsets.symmetric(
-            horizontal: 40.0,
+            horizontal: 30.0,
             vertical: 20.0,
           ),
           decoration: BoxDecoration(
