@@ -45,6 +45,20 @@ class _HomePageState extends State<HomePage> {
               Spacer(),
               _buildButtonPanel(),
               SizedBox(height: 16.0),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    width: 500,
+                    height: 500,
+                    decoration: ShapeDecoration(
+                        color: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(32),
+                        )),
+                  )
+                ],
+              )
             ],
           ),
         ),
@@ -54,11 +68,11 @@ class _HomePageState extends State<HomePage> {
 
   _buildQuizView() {
     // TODO: build UI
-    return Center(child: Text('TODO: build UI'));
+    return Center(child: Text(''));
   }
 
   _buildButtonPanel() {
     // TODO: build UI
-    return Center(child: Text('TODO: build UI'));
+    return Center(child: Text(''));
   }
 }
